@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Name: angular-google-charts
+Bundle-SymbolicName: angular-google-charts
+Package-Type: Web-Component
+Bundle-Version: 1.0.0
+NPM-PackageName: angular-google-charts
+NG2-Module: GoogleChartsModule
+Entry-Point: dist
+
+Name: angular-google-charts/agendaview.spec
+Web-Component: True
