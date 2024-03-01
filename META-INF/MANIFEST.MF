@@ -2,10 +2,10 @@ Manifest-Version: 1.0
 Bundle-Name: angular-google-charts
 Bundle-SymbolicName: angular-google-charts
 Package-Type: Web-Component
-Bundle-Version: 1.0.0
+Bundle-Version: 2.2.3
 NPM-PackageName: angular-google-charts
 NG2-Module: GoogleChartsModule
-Entry-Point: dist
+Entry-Point: dist/angular-google-charts
 
-Name: angular-google-charts/agendaview.spec
+Name: angular-google-charts/google-chart.spec
 Web-Component: True
