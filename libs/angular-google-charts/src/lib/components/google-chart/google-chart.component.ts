@@ -30,7 +30,7 @@ import { ChartBase, Column, Row } from '../chart-base/chart-base.component';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 
 @Component({
-  selector: 'google-chart',
+  selector: 'angular-google-charts-google-chart',
   template: '',
   styles: [':host { width: fit-content; display: block; }'],
   host: { class: 'google-chart' },
@@ -139,7 +139,7 @@ export class GoogleChartComponent implements ChartBase, OnInit, OnChanges, OnDes
     private scriptLoaderService: ScriptLoaderService,
     private dataTableService: DataTableService,
     @Optional() private dashboard?: DashboardComponent
-  ) {}
+  ) { }
 
   public get chart(): google.visualization.ChartBase | null {
     return this.chartWrapper.getChart();

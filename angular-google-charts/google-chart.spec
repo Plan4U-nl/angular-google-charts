@@ -2,7 +2,6 @@
     "name": "angular-google-charts-google-chart",
     "displayName": "Google Chart",
     "version": 1,
-    "definition": "angular-google-charts/angular-google-charts/google-chart.component.js",
     "libraries": [],
     "model": {
         "type": {
@@ -38,13 +37,13 @@
             ]
         },
         "data": {
-            "type": "row[]",
-            "doc": "Data used to initialize the table"
+            "type": "object",
+            "doc": "Data used to initialize the table",
+            "scope": "runtime"
         },
         "columns": {
-            "type": "string[]",
-            "doc": "The names of the columns in the table",
-            "optional": true
+            "type": "object[]",
+            "doc": "The names of the columns in the table"
         },
         "title": {
             "type": "string",
@@ -66,12 +65,6 @@
             "doc": "If set to true, the chart will resize itself when the window resizes",
             "default": false,
             "optional": true
-        }
-    },
-    "types": {
-        "row": {
-            "type": "object[]",
-            "doc": "A row of data in the table, where each cell can be string or number"
         }
     }
 }

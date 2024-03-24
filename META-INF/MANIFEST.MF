@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bundle-Name: angular-google-charts
+Bundle-Name: Angular Google Charts
 Bundle-SymbolicName: angular-google-charts
 Package-Type: Web-Component
 Bundle-Version: 2.2.3
