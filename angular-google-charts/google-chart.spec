@@ -65,6 +65,11 @@
             "doc": "If set to true, the chart will resize itself when the window resizes",
             "default": false,
             "optional": true
+        },
+        "options": {
+            "type": "object",
+            "doc": "The options for the chart",
+            "optional": true
         }
     }
 }
